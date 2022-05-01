@@ -10,3 +10,9 @@ var khonsu = new KhonsuKeyGen(new HashSet<string>
 var newId1 = khonsu.Generate("XTR"); // New Id
 var newId2 = khonsu.Generate("EFR"); // throws KhonsuKeyGenerationException(): prefix not registered;
 ```
+
+## How To Install
+
+```
+dotnet add package Khonsu.KeyGenerator --version 1.0.0
+```
